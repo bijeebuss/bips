@@ -215,7 +215,7 @@ requested by the corresponding cosigner.
 |first
 |receive
 |first
-| m / 45' / account_index' / 0 / 0 / 0
+| m / 45' / 0' / 0 / 0 / 0
 |-
 |first
 |first
@@ -235,8 +235,8 @@ requested by the corresponding cosigner.
 |first
 | m / 45' / 0' / 0 / 1 / 0
 |-
-|first
 |second
+|first
 |change
 |second
 | m / 45' / 1' / 0 / 1 / 1
@@ -247,8 +247,8 @@ requested by the corresponding cosigner.
 |first
 | m / 45' / 1' / 1 / 0 / 0
 |-
-|third
 |second
+|third
 |change
 |tenth
 | m / 45' / 1' / 2 / 1 / 9
