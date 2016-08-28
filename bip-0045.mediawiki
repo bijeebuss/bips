@@ -235,23 +235,23 @@ requested by the corresponding cosigner.
 |first
 | m / 45' / 0' / 0 / 1 / 0
 |-
-|second
+|first
 |first
 |change
 |second
-| m / 45' / 1' / 0 / 1 / 1
+| m / 45' / 0' / 0 / 1 / 1
 |-
-|second
+|first
 |second
 |receive
 |first
-| m / 45' / 1' / 1 / 0 / 0
+| m / 45' / 0' / 1 / 0 / 0
 |-
-|second
+|fifth
 |third
 |change
 |tenth
-| m / 45' / 1' / 2 / 1 / 9
+| m / 45' / 4' / 2 / 1 / 9
 |}
 
 ==Reference==
