@@ -205,45 +205,53 @@ requested by the corresponding cosigner.
 ==Examples==
 
 {|
+!account_index
 !cosigner_index
 !change
 !address_index
 !path
 |-
 |first
+|first
 |receive
 |first
-| m / 45' / account_index ' / 0 / 0 / 0
+| m / 45' / account_index' / 0 / 0 / 0
 |-
+|first
 |first
 |receive
 |second
-| m / 45' / account_index ' / 0 / 0 / 1
+| m / 45' / 0' / 0 / 0 / 1
 |-
+|first
 |first
 |receive
 |fifth
-| m / 45' / account_index ' / 0 / 0 / 4
+| m / 45' / 0' / 0 / 0 / 4
 |-
+|first
 |first
 |change
 |first
-| m / 45' / account_index ' / 0 / 1 / 0
+| m / 45' / 0' / 0 / 1 / 0
 |-
 |first
+|second
 |change
 |second
-| m / 45' / account_index ' / 0 / 1 / 1
+| m / 45' / 1' / 0 / 1 / 1
 |-
+|second
 |second
 |receive
 |first
-| m / 45' / account_index ' / 1 / 0 / 0
+| m / 45' / 1' / 1 / 0 / 0
 |-
 |third
+|second
 |change
 |tenth
-| m / 45' / account_index ' / 2 / 1 / 9
+| m / 45' / 1' / 2 / 1 / 9
 |}
 
 ==Reference==
