@@ -241,11 +241,11 @@ requested by the corresponding cosigner.
 |second
 | m / 45' / 0' / 0 / 1 / 1
 |-
-|first
+|third
 |second
 |receive
 |first
-| m / 45' / 0' / 1 / 0 / 0
+| m / 45' / 2' / 1 / 0 / 0
 |-
 |fifth
 |third
